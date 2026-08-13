@@ -9,6 +9,7 @@ int main() {
         setupRoutes(app);
 
         std::cout << "Server starting on http://localhost:18080" << std::endl;
+	std::cout << "Server built on " << __DATE__ << " " << __TIME__ << std::endl;
         app.port(18080).multithreaded().run();
 
     } catch (const std::exception& e) {

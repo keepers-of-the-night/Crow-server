@@ -3,28 +3,49 @@
 #include "crow_all.h"
 #include <fstream>
 #include <string>
-#include <windows.h>
+#include <regex>
 
-std::string getExecutablePath() {
-    char buffer[MAX_PATH];
-    GetModuleFileName(NULL, buffer, MAX_PATH);
-    std::string path(buffer);
-    return path.substr(0, path.find_last_of("\\/") + 1);
+crow::response make_error_response(int code, const std::string& message) {
+    crow::json::wvalue resp;
+    resp["error"] = true;
+    resp["message"] = message;
+    return crow::response(code, resp);
 }
 
 template <typename AppType>
 void setupRoutes(AppType& app) {
 
     CROW_ROUTE(app, "/")([]() {
-        return "Hello, World!";
+        crow::json::wvalue response;
+        response["service"] = "Crow HTTP Server";
+        response["version"] = "1.0";
+
+        crow::json::wvalue::list endpoints;
+        endpoints.push_back({{"method", "GET"}, {"path", "/"}});
+        endpoints.push_back({{"method", "GET"}, {"path", "/hello/<string>"}});
+        endpoints.push_back({{"method", "GET"}, {"path", "/json"}});
+        endpoints.push_back({{"method", "POST"}, {"path", "/add"}});
+        endpoints.push_back({{"method", "GET"}, {"path", "/files/<path>"}});
+
+        response["endpoints"] = std::move(endpoints);
+        return response;
     });
 
     CROW_ROUTE(app, "/hello/<string>")
+    .name("hello")
     ([](const std::string& name) {
-        return "Hello, " + name + "!";
+        if (name.empty()) {
+            return make_error_response(400, "Name cannot be empty");
+        }
+        std::regex valid_pattern("^[a-zA-Zа-яА-Я0-9\\s\\-']+$");
+        if (!std::regex_match(name, valid_pattern)) {
+            return make_error_response(400, "Name contains invalid characters");
+        }
+        return crow::response("Hello, " + name + "!");
     });
 
     CROW_ROUTE(app, "/json")
+    .name("json")
     ([]() {
         crow::json::wvalue response;
         response["message"] = "Hello, JSON!";
@@ -36,8 +57,13 @@ void setupRoutes(AppType& app) {
     ([](const crow::request& req) {
         auto body = crow::json::load(req.body);
         if (!body) {
-            return crow::response(400, "Invalid JSON");
+            return make_error_response(400, "Invalid JSON format");
         }
+
+        if (!body.has("a") || !body.has("b")) {
+            return make_error_response(400, "Missing fields: a and b are required");
+        }
+
         int a = body["a"].i();
         int b = body["b"].i();
         int sum = a + b;
@@ -48,18 +74,16 @@ void setupRoutes(AppType& app) {
     });
 
     CROW_ROUTE(app, "/files/<path>")
+    .name("files")
     ([](const std::string& path) {
-
         if (path.find("..") != std::string::npos) {
-            return crow::response(403, "Forbidden");
+            return make_error_response(403, "Forbidden");
         }
 
-        std::string base_path = getExecutablePath() + "..\\..\\static\\";
-	std::string full_path = base_path + path;
-	std::cout << "Looking for file: " << full_path << std::endl;
+        std::string full_path = "../../files/" + path;
         std::ifstream file(full_path, std::ios::binary);
         if (!file.is_open()) {
-            return crow::response(404, "File not found");
+            return make_error_response(404, "File not found");
         }
 
         std::string ext = path.substr(path.find_last_of('.') + 1);
