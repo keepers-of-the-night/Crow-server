@@ -1,0 +1,3 @@
+F:/Alexey/C++/My_crow_server/build/CMakeFiles/crow_server.dir
+F:/Alexey/C++/My_crow_server/build/CMakeFiles/ALL_BUILD.dir
+F:/Alexey/C++/My_crow_server/build/CMakeFiles/ZERO_CHECK.dir
