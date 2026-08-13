@@ -91,7 +91,7 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:02:56.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:28:04.
       
       ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
@@ -120,7 +120,7 @@ events:
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.66
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:03.17
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -936,7 +936,7 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:02:59.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:28:09.
       
       ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
@@ -965,7 +965,7 @@ events:
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.10
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:02.20
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1455,8 +1455,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769"
-      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769"
+      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp"
+      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -1466,39 +1466,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769'
+        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b859.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ff1b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:03:01.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:28:14.
         
-        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\cmTC_7b859.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\cmTC_ff1b8.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b859.dir\\Debug\\\\" /Fd"cmTC_7b859.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ff1b8.dir\\Debug\\\\" /Fd"cmTC_ff1b8.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b859.dir\\Debug\\\\" /Fd"cmTC_7b859.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ff1b8.dir\\Debug\\\\" /Fd"cmTC_ff1b8.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe" /INCREMENTAL /ILK:"cmTC_7b859.dir\\Debug\\cmTC_7b859.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.lib" /MACHINE:X64  /machine:x64 cmTC_7b859.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_7b859.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\Debug\\cmTC_ff1b8.exe" /INCREMENTAL /ILK:"cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp/Debug/cmTC_ff1b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp/Debug/cmTC_ff1b8.lib" /MACHINE:X64  /machine:x64 cmTC_ff1b8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ff1b8.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\Debug\\cmTC_ff1b8.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\cmTC_7b859.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\cmTC_7b859.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.tlog\\cmTC_ff1b8.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\cmTC_ff1b8.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.40
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.81
         
       exitCode: 0
   -
@@ -1511,7 +1511,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe" /INCREMENTAL /ILK:"cmTC_7b859.dir\\Debug\\cmTC_7b859.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.lib" /MACHINE:X64  /machine:x64 cmTC_7b859.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-svsvbp\\Debug\\cmTC_ff1b8.exe" /INCREMENTAL /ILK:"cmTC_ff1b8.dir\\Debug\\cmTC_ff1b8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp/Debug/cmTC_ff1b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-svsvbp/Debug/cmTC_ff1b8.lib" /MACHINE:X64  /machine:x64 cmTC_ff1b8.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -1539,8 +1539,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk"
-      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk"
+      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65"
+      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1551,39 +1551,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk'
+        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63545.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77a36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:03:04.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:28:18.
         
-        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\cmTC_63545.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\cmTC_77a36.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_77a36.dir\\Debug\\cmTC_77a36.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_77a36.dir\\Debug\\cmTC_77a36.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_77a36.dir\\Debug\\cmTC_77a36.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_63545.dir\\Debug\\\\" /Fd"cmTC_63545.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_77a36.dir\\Debug\\\\" /Fd"cmTC_77a36.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_63545.dir\\Debug\\\\" /Fd"cmTC_63545.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_77a36.dir\\Debug\\\\" /Fd"cmTC_77a36.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe" /INCREMENTAL /ILK:"cmTC_63545.dir\\Debug\\cmTC_63545.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.lib" /MACHINE:X64  /machine:x64 cmTC_63545.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_63545.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\Debug\\cmTC_77a36.exe" /INCREMENTAL /ILK:"cmTC_77a36.dir\\Debug\\cmTC_77a36.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65/Debug/cmTC_77a36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65/Debug/cmTC_77a36.lib" /MACHINE:X64  /machine:x64 cmTC_77a36.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_77a36.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\Debug\\cmTC_77a36.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\cmTC_63545.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\cmTC_63545.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_77a36.dir\\Debug\\cmTC_77a36.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_77a36.dir\\Debug\\cmTC_77a36.tlog\\cmTC_77a36.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\cmTC_77a36.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.11
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.66
         
       exitCode: 0
   -
@@ -1596,7 +1596,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe" /INCREMENTAL /ILK:"cmTC_63545.dir\\Debug\\cmTC_63545.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.lib" /MACHINE:X64  /machine:x64 cmTC_63545.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhct65\\Debug\\cmTC_77a36.exe" /INCREMENTAL /ILK:"cmTC_77a36.dir\\Debug\\cmTC_77a36.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65/Debug/cmTC_77a36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-bhct65/Debug/cmTC_77a36.lib" /MACHINE:X64  /machine:x64 cmTC_77a36.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []

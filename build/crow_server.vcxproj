@@ -373,7 +373,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="F:\Alexey\C++\My_crow_server\src\main.cpp" />
-    <ClCompile Include="F:\Alexey\C++\My_crow_server\src\handlers.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

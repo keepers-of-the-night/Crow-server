@@ -10,5 +10,4 @@ include_directories(include)
 
 add_executable(crow_server
     src/main.cpp
-    src/handlers.cpp
 )
