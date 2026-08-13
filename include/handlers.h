@@ -5,6 +5,12 @@
 #include <string>
 #include <regex>
 
+static std::string g_static_path = "static";
+
+void setStaticPath(const std::string& path) {
+    g_static_path = path;
+}
+
 crow::response make_error_response(int code, const std::string& message) {
     crow::json::wvalue resp;
     resp["error"] = true;
@@ -80,7 +86,7 @@ void setupRoutes(AppType& app) {
             return make_error_response(403, "Forbidden");
         }
 
-        std::string full_path = "../../files/" + path;
+	std::string full_path = g_static_path + "/" + path;
         std::ifstream file(full_path, std::ios::binary);
         if (!file.is_open()) {
             return make_error_response(404, "File not found");
