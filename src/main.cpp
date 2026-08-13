@@ -13,10 +13,27 @@ int main() {
         return "Hello, " + name + "!";
     });
 
-    CROW_ROUTE(app, "/square/<int>")
-    ([](int number) {
-        int result = number * number;
-        return "Square of " + std::to_string(number) + " is " + std::to_string(result);
+    CROW_ROUTE(app, "/json")
+    ([]() {
+        crow::json::wvalue response;
+        response["message"] = "Hello, JSON!";
+        response["status"] = "success";
+        return response;
+    });
+
+    CROW_ROUTE(app, "/add").methods("POST"_method)
+    ([](const crow::request& req) {
+        auto body = crow::json::load(req.body);
+        if (!body) {
+            return crow::response(400, "Invalid JSON");
+        }
+        int a = body["a"].i();
+        int b = body["b"].i();
+        int sum = a + b;
+
+        crow::json::wvalue result;
+        result["sum"] = sum;
+        return crow::response(result);
     });
 
     app.port(18080).multithreaded().run();
