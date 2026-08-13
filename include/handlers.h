@@ -1,13 +1,14 @@
 #pragma once
 
 #include "crow_all.h"
+#include "jwt_middleware.h"
 #include <fstream>
 #include <string>
 #include <regex>
 
 static std::string g_static_path = "static";
 
-void setStaticPath(const std::string& path) {
+inline void setStaticPath(const std::string& path) {
     g_static_path = path;
 }
 
@@ -32,6 +33,8 @@ void setupRoutes(AppType& app) {
         endpoints.push_back({{"method", "GET"}, {"path", "/json"}});
         endpoints.push_back({{"method", "POST"}, {"path", "/add"}});
         endpoints.push_back({{"method", "GET"}, {"path", "/files/<path>"}});
+        endpoints.push_back({{"method", "POST"}, {"path", "/login"}});
+        endpoints.push_back({{"method", "GET"}, {"path", "/protected"}});
 
         response["endpoints"] = std::move(endpoints);
         return response;
@@ -79,6 +82,42 @@ void setupRoutes(AppType& app) {
         return crow::response(result);
     });
 
+    CROW_ROUTE(app, "/login").methods("POST"_method)
+    ([](const crow::request& req) {
+        auto body = crow::json::load(req.body);
+        if (!body) {
+            return make_error_response(400, "Invalid JSON format");
+        }
+
+        if (!body.has("username") || !body.has("password")) {
+            return make_error_response(400, "Missing username or password");
+        }
+
+        std::string username = body["username"].s();
+        std::string password = body["password"].s();
+
+        if (username != "admin" || password != "password") {
+            return make_error_response(401, "Invalid credentials");
+        }
+
+        auto token = jwt::create()
+            .set_issuer("my-crow-server")
+            .set_type("JWT")
+            .set_payload_claim("username", jwt::claim(username))
+            .set_issued_at(std::chrono::system_clock::now())
+            .set_expires_at(std::chrono::system_clock::now() + std::chrono::minutes{30})
+            .sign(jwt::algorithm::hs256{JWT_SECRET});
+
+        crow::json::wvalue response;
+        response["token"] = token;
+        return crow::response(response);
+    });
+
+    CROW_ROUTE(app, "/protected")
+    ([]() {
+        return crow::response(R"({"message":"You have access to protected resource!"})");
+    });
+
     CROW_ROUTE(app, "/files/<path>")
     .name("files")
     ([](const std::string& path) {
@@ -86,7 +125,7 @@ void setupRoutes(AppType& app) {
             return make_error_response(403, "Forbidden");
         }
 
-	std::string full_path = g_static_path + "/" + path;
+        std::string full_path = g_static_path + "/" + path;
         std::ifstream file(full_path, std::ios::binary);
         if (!file.is_open()) {
             return make_error_response(404, "File not found");

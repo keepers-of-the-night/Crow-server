@@ -1,0 +1,12 @@
+Program started
+Entering try
+DLL path: F:\Alexey\C++\openssl\bin
+SetDllDirectoryW called
+Loaded libcrypto-3-x64.dll
+Config loaded, port: 18080
+Static path set
+Creating crow::App...
+crow::App created
+Calling setupRoutes...
+setupRoutes done
+Starting app.run()...

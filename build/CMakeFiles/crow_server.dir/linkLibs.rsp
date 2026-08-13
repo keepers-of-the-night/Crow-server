@@ -1,0 +1,1 @@
+ F:/Alexey/C++/My_crow_server/openssl/lib/libcrypto.lib F:/Alexey/C++/My_crow_server/openssl/lib/libssl.lib -lws2_32 -lmswsock -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

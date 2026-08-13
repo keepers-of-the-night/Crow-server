@@ -1,0 +1,8 @@
+[Thu Aug 13 22:12:43 2026] GET /hello/Joh -> 401 (0 ms)
+[Thu Aug 13 22:12:54 2026] GET / -> 200 (0 ms)
+[Thu Aug 13 22:14:27 2026] GET /login -> 405 (0 ms)
+[Thu Aug 13 22:14:34 2026] GET / -> 200 (0 ms)
+[Thu Aug 13 22:14:46 2026] GET / -> 200 (0 ms)
+[Thu Aug 13 22:14:51 2026] GET /protected -> 401 (0 ms)
+[Thu Aug 13 22:15:50 2026] POST /login -> 200 (203 ms)
+[Thu Aug 13 22:16:56 2026] GET /protected -> 200 (0 ms)
