@@ -4,6 +4,9 @@
     <ClCompile Include="F:\Alexey\C++\My_crow_server\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="F:\Alexey\C++\My_crow_server\src\handlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="F:\Alexey\C++\My_crow_server\CMakeLists.txt" />

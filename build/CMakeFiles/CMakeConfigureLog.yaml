@@ -35,35 +35,46 @@ events:
     found: "F:/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -80,7 +91,7 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 11:34:56.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:02:56.
       
       ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
@@ -109,7 +120,7 @@ events:
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.31
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.66
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -142,6 +153,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -168,42 +183,56 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -227,6 +256,10 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -253,12 +286,27 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/cyclo/bin/lld-link.com"
+      - "C:/Users/cyclo/bin/lld-link.exe"
+      - "C:/Users/cyclo/bin/lld-link"
+      - "F:/Git/mingw64/bin/lld-link.com"
+      - "F:/Git/mingw64/bin/lld-link.exe"
+      - "F:/Git/mingw64/bin/lld-link"
+      - "F:/Git/usr/local/bin/lld-link.com"
+      - "F:/Git/usr/local/bin/lld-link.exe"
+      - "F:/Git/usr/local/bin/lld-link"
+      - "F:/Git/usr/bin/lld-link.com"
+      - "F:/Git/usr/bin/lld-link.exe"
+      - "F:/Git/usr/bin/lld-link"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.com"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.exe"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link"
@@ -337,44 +385,64 @@ events:
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link.com"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link.exe"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link.com"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link.exe"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link"
+      - "F:/VS Code/binC/lld-link.com"
+      - "F:/VS Code/binC/lld-link.exe"
+      - "F:/VS Code/binC/lld-link"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link.com"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link.exe"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "F:/Git/usr/bin/vendor_perl/lld-link.com"
+      - "F:/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "F:/Git/usr/bin/vendor_perl/lld-link"
+      - "F:/Git/usr/bin/core_perl/lld-link.com"
+      - "F:/Git/usr/bin/core_perl/lld-link.exe"
+      - "F:/Git/usr/bin/core_perl/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -396,6 +464,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -422,42 +494,56 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -479,6 +565,10 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -505,12 +595,27 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/cyclo/bin/mt.com"
+      - "C:/Users/cyclo/bin/mt.exe"
+      - "C:/Users/cyclo/bin/mt"
+      - "F:/Git/mingw64/bin/mt.com"
+      - "F:/Git/mingw64/bin/mt.exe"
+      - "F:/Git/mingw64/bin/mt"
+      - "F:/Git/usr/local/bin/mt.com"
+      - "F:/Git/usr/local/bin/mt.exe"
+      - "F:/Git/usr/local/bin/mt"
+      - "F:/Git/usr/bin/mt.com"
+      - "F:/Git/usr/bin/mt.exe"
+      - "F:/Git/usr/bin/mt"
       - "C:/Program Files (x86)/Intel/iCLS Client/mt.com"
       - "C:/Program Files (x86)/Intel/iCLS Client/mt.exe"
       - "C:/Program Files (x86)/Intel/iCLS Client/mt"
@@ -589,44 +694,64 @@ events:
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/mt.com"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/mt.exe"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/mt"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/mt.com"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/mt.exe"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/mt"
+      - "F:/VS Code/binC/mt.com"
+      - "F:/VS Code/binC/mt.exe"
+      - "F:/VS Code/binC/mt"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/mt.com"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/mt.exe"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/mt"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "F:/Git/usr/bin/vendor_perl/mt.com"
+      - "F:/Git/usr/bin/vendor_perl/mt.exe"
+      - "F:/Git/usr/bin/vendor_perl/mt"
+      - "F:/Git/usr/bin/core_perl/mt.com"
+      - "F:/Git/usr/bin/core_perl/mt.exe"
+      - "F:/Git/usr/bin/core_perl/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -648,6 +773,10 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -674,42 +803,56 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -737,35 +880,46 @@ events:
     found: "F:/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -782,7 +936,7 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 11:34:58.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:02:59.
       
       ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
@@ -811,7 +965,7 @@ events:
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.06
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.10
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -844,6 +998,10 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -870,12 +1028,27 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/cyclo/bin/lld-link.com"
+      - "C:/Users/cyclo/bin/lld-link.exe"
+      - "C:/Users/cyclo/bin/lld-link"
+      - "F:/Git/mingw64/bin/lld-link.com"
+      - "F:/Git/mingw64/bin/lld-link.exe"
+      - "F:/Git/mingw64/bin/lld-link"
+      - "F:/Git/usr/local/bin/lld-link.com"
+      - "F:/Git/usr/local/bin/lld-link.exe"
+      - "F:/Git/usr/local/bin/lld-link"
+      - "F:/Git/usr/bin/lld-link.com"
+      - "F:/Git/usr/bin/lld-link.exe"
+      - "F:/Git/usr/bin/lld-link"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.com"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.exe"
       - "C:/Program Files (x86)/Intel/iCLS Client/lld-link"
@@ -954,44 +1127,64 @@ events:
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link.com"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link.exe"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/lld-link"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link.com"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link.exe"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/lld-link"
+      - "F:/VS Code/binC/lld-link.com"
+      - "F:/VS Code/binC/lld-link.exe"
+      - "F:/VS Code/binC/lld-link"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link.com"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link.exe"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/lld-link"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "F:/Git/usr/bin/vendor_perl/lld-link.com"
+      - "F:/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "F:/Git/usr/bin/vendor_perl/lld-link"
+      - "F:/Git/usr/bin/core_perl/lld-link.com"
+      - "F:/Git/usr/bin/core_perl/lld-link.exe"
+      - "F:/Git/usr/bin/core_perl/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1015,6 +1208,10 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Users/cyclo/bin/"
+      - "F:/Git/mingw64/bin/"
+      - "F:/Git/usr/local/bin/"
+      - "F:/Git/usr/bin/"
       - "C:/Program Files (x86)/Intel/iCLS Client/"
       - "C:/Program Files/Intel/iCLS Client/"
       - "C:/Program Files/Eclipse Adoptium/jdk-17.0.18.8-hotspot/bin/"
@@ -1041,8 +1238,11 @@ events:
       - "F:/Alexey/C++/My_crow_server/build/%JAVA_HOME%/bin/"
       - "C:/Users/cyclo/.dotnet/tools/"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/"
+      - "F:/VS Code/binC/"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "F:/Git/usr/bin/vendor_perl/"
+      - "F:/Git/usr/bin/core_perl/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1056,6 +1256,18 @@ events:
       - "C:/Program Files (x86)/CrowServer/sbin/"
       - "C:/Program Files (x86)/CrowServer/"
     searched_directories:
+      - "C:/Users/cyclo/bin/rc.com"
+      - "C:/Users/cyclo/bin/rc.exe"
+      - "C:/Users/cyclo/bin/rc"
+      - "F:/Git/mingw64/bin/rc.com"
+      - "F:/Git/mingw64/bin/rc.exe"
+      - "F:/Git/mingw64/bin/rc"
+      - "F:/Git/usr/local/bin/rc.com"
+      - "F:/Git/usr/local/bin/rc.exe"
+      - "F:/Git/usr/local/bin/rc"
+      - "F:/Git/usr/bin/rc.com"
+      - "F:/Git/usr/bin/rc.exe"
+      - "F:/Git/usr/bin/rc"
       - "C:/Program Files (x86)/Intel/iCLS Client/rc.com"
       - "C:/Program Files (x86)/Intel/iCLS Client/rc.exe"
       - "C:/Program Files (x86)/Intel/iCLS Client/rc"
@@ -1134,12 +1346,21 @@ events:
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/rc.com"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/rc.exe"
       - "C:/Users/cyclo/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool/rc"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/rc.com"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/rc.exe"
-      - "F:/VS Code/binC:/Users/cyclo/gcc-16.1.0-64/bin/rc"
+      - "F:/VS Code/binC/rc.com"
+      - "F:/VS Code/binC/rc.exe"
+      - "F:/VS Code/binC/rc"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/rc.com"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/rc.exe"
+      - "F:/Git/Users/cyclo/gcc-16.1.0-64/bin/rc"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
       - "C:/Users/cyclo/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "F:/Git/usr/bin/vendor_perl/rc.com"
+      - "F:/Git/usr/bin/vendor_perl/rc.exe"
+      - "F:/Git/usr/bin/vendor_perl/rc"
+      - "F:/Git/usr/bin/core_perl/rc.com"
+      - "F:/Git/usr/bin/core_perl/rc.exe"
+      - "F:/Git/usr/bin/core_perl/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1179,35 +1400,46 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
-        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Users\\cyclo\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\local\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "F:\\Git\\mingw64\\bin"
+        - "F:\\Git\\usr\\bin"
+        - "C:\\Users\\cyclo\\bin"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client"
+        - "C:\\Program Files\\Intel\\iCLS Client"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
         - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files (x86)\\dotnet\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
         - "C:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "F:\\Git\\Git\\cmd"
         - "C:\\Users\\cyclo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "F:\\CMake\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\cyclo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps\\"
+        - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
         - "%JAVA_HOME%\\bin"
         - "C:\\Users\\cyclo\\.dotnet\\tools"
         - "C:\\Users\\cyclo\\AppData\\Local\\Kingsoft\\WPS Office\\12.1.0.27458\\clitool"
-        - "F:\\VS Code\\binC:\\Users\\cyclo\\gcc-16.1.0-64\\bin"
+        - "F:\\VS Code\\binC"
+        - "F:\\Git\\Users\\cyclo\\gcc-16.1.0-64\\bin"
         - "C:\\Users\\cyclo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "F:\\Git\\usr\\bin\\vendor_perl"
+        - "F:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CrowServer"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1223,8 +1455,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l"
-      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l"
+      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769"
+      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -1234,39 +1466,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l'
+        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1fc5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b859.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 11:34:59.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:03:01.
         
-        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\cmTC_1fc5c.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\cmTC_7b859.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1fc5c.dir\\Debug\\\\" /Fd"cmTC_1fc5c.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b859.dir\\Debug\\\\" /Fd"cmTC_7b859.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1fc5c.dir\\Debug\\\\" /Fd"cmTC_1fc5c.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7b859.dir\\Debug\\\\" /Fd"cmTC_7b859.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\Debug\\cmTC_1fc5c.exe" /INCREMENTAL /ILK:"cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l/Debug/cmTC_1fc5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l/Debug/cmTC_1fc5c.lib" /MACHINE:X64  /machine:x64 cmTC_1fc5c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_1fc5c.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\Debug\\cmTC_1fc5c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe" /INCREMENTAL /ILK:"cmTC_7b859.dir\\Debug\\cmTC_7b859.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.lib" /MACHINE:X64  /machine:x64 cmTC_7b859.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7b859.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.tlog\\cmTC_1fc5c.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\cmTC_1fc5c.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7b859.dir\\Debug\\cmTC_7b859.tlog\\cmTC_7b859.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\cmTC_7b859.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.20
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.40
         
       exitCode: 0
   -
@@ -1279,7 +1511,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7rci7l\\Debug\\cmTC_1fc5c.exe" /INCREMENTAL /ILK:"cmTC_1fc5c.dir\\Debug\\cmTC_1fc5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l/Debug/cmTC_1fc5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-7rci7l/Debug/cmTC_1fc5c.lib" /MACHINE:X64  /machine:x64 cmTC_1fc5c.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng1769\\Debug\\cmTC_7b859.exe" /INCREMENTAL /ILK:"cmTC_7b859.dir\\Debug\\cmTC_7b859.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-ng1769/Debug/cmTC_7b859.lib" /MACHINE:X64  /machine:x64 cmTC_7b859.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -1307,8 +1539,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u"
-      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u"
+      source: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk"
+      binary: "F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1319,39 +1551,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u'
+        Change Dir: 'F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_31c99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63545.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 11:35:01.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 13.08.2026 13:03:04.
         
-        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\cmTC_31c99.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\cmTC_63545.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_31c99.dir\\Debug\\cmTC_31c99.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_31c99.dir\\Debug\\cmTC_31c99.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_31c99.dir\\Debug\\cmTC_31c99.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_31c99.dir\\Debug\\\\" /Fd"cmTC_31c99.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_63545.dir\\Debug\\\\" /Fd"cmTC_63545.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_31c99.dir\\Debug\\\\" /Fd"cmTC_31c99.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_63545.dir\\Debug\\\\" /Fd"cmTC_63545.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "F:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\Debug\\cmTC_31c99.exe" /INCREMENTAL /ILK:"cmTC_31c99.dir\\Debug\\cmTC_31c99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u/Debug/cmTC_31c99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u/Debug/cmTC_31c99.lib" /MACHINE:X64  /machine:x64 cmTC_31c99.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_31c99.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\Debug\\cmTC_31c99.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe" /INCREMENTAL /ILK:"cmTC_63545.dir\\Debug\\cmTC_63545.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.lib" /MACHINE:X64  /machine:x64 cmTC_63545.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_63545.vcxproj -> F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_31c99.dir\\Debug\\cmTC_31c99.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_31c99.dir\\Debug\\cmTC_31c99.tlog\\cmTC_31c99.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\cmTC_31c99.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_63545.dir\\Debug\\cmTC_63545.tlog\\cmTC_63545.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\cmTC_63545.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.07
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.11
         
       exitCode: 0
   -
@@ -1364,7 +1596,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2eci6u\\Debug\\cmTC_31c99.exe" /INCREMENTAL /ILK:"cmTC_31c99.dir\\Debug\\cmTC_31c99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u/Debug/cmTC_31c99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-2eci6u/Debug/cmTC_31c99.lib" /MACHINE:X64  /machine:x64 cmTC_31c99.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Alexey\\C++\\My_crow_server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k3y9dk\\Debug\\cmTC_63545.exe" /INCREMENTAL /ILK:"cmTC_63545.dir\\Debug\\cmTC_63545.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Alexey/C++/My_crow_server/build/CMakeFiles/CMakeScratch/TryCompile-k3y9dk/Debug/cmTC_63545.lib" /MACHINE:X64  /machine:x64 cmTC_63545.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
