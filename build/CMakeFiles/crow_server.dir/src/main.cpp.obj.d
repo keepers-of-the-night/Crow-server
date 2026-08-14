@@ -1,354 +1,355 @@
 CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/src/main.cpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/iostream \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/requires_hosted.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/pstl/pstl_config.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ostream \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ostream.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ios \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/iosfwd \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stringfwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/memoryfwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/version.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/postypes.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cwchar \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wchar.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_stat64.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/swprintf.inl \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/exception \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/exception.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/exception_ptr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/exception_defines.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/crtdefs.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/typeinfo \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/hash_bytes.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/new \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/new_except.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/move.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/type_traits \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/nested_exception.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/char_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/localefwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/clocale \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/locale.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stdio.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cctype \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ctype.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ios_base.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/atomicity.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/stdlib.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cstdlib \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stdlib.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/limits.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/malloc.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/errno.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/std_abs.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_classes.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/functexcept.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/string \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/allocator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/new_allocator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/new_throw.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/cpp_type_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ostream_insert.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/cxxabi_forced.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/concept_check.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/debug/assertions.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_iterator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/type_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ptr_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_function.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/backward/binders.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/numeric_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stdexcept_throw.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_algobase.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_pair.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/utility.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/debug/debug.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/predefined_ops.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bit \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/concepts \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/range_access.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/initializer_list \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/erase_if.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/basic_string.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/alloc_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/alloc_traits.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_construct.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/string_view \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/functional_hash.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/string_view.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/string_conversions.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cstdio \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cerrno \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/charconv.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/basic_string.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/memory_resource.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cstddef \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/uses_allocator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/uses_allocator_args.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tuple \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/invoke.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_classes.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/system_error \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/stdexcept \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stdexcept_except.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/streambuf \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/streambuf.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/basic_ios.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_facets.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cwctype \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wctype.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/streambuf_iterator.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_facets.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/basic_ios.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ostream_print.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/ostream.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/istream \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/istream.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/filesystem \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/fs_fwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cstdint \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/chrono.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ratio \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/limits \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ctime \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/time.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_timeval.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/parse_numbers.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/fs_path.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/locale \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_facets_nonio.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/codecvt.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_facets_nonio.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/locale_conv.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/iomanip \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/quoted_string.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/sstream \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/sstream.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/codecvt \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/concurrence.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/shared_ptr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/shared_ptr_base.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/allocated_ptr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/refwrap.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/unique_ptr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/ext/aligned_buffer.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/fs_dir.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/fs_ops.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/fstream \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/fstream.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pathcch.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/apiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/apisetcconv.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/minwindef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winapifamily.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/specstrings.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sal.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/concurrencysal.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/driverspecs.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winnt.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_unicode.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/excpt.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sdkddkver.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/basetsd.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/guiddef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/string.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/x86intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/x86gprintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ia32intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/adxintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmiintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmi2intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cetintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cldemoteintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clflushoptintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clwbintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clzerointrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cmpccxaddintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/enqcmdintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fxsrintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/lzcntintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/lwpintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movdirintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitxintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pconfigintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/popcntintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pkuintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/prfchiintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/raointintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/rdseedintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/rtmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/serializeintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sgxintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tbmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tsxldtrkintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/uintrintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/waitpkgintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/wbnoinvdintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavecintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveoptintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavesintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xtestintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/hresetintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/usermsrintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/immintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xmmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/emmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pmmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tmmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/smmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/wmmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxifmaintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniint8intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniint16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx2intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512cdintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bwintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512dqintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vlbwintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vldqintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmaintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmavlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmiintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmivlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmi2intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmi2vlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnniintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnnivlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqvlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgvlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectvlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16vlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/shaintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sm3intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sha512intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sm4intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fmaintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/f16cintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/gfniintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/vaesintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/vpclmulqdqintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16vlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxneconvertintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtileintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxint8intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxbf16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxcomplexintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxavx512intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtf32intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp8intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/prfchwintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/keylockerintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2mediaintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2convertintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2bf16intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2satcvtintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2minmaxintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2copyintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movrsintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxmovrsintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmvlintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm3dnow.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fma4intrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ammintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xopintrin.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack4.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/poppack.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack4.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack2.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/poppack.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack2.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack8.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack8.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ktmtypes.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/minwinbase.h \
+ F:/msys64/mingw64/include/c++/16.1.0/iostream \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ F:/msys64/mingw64/include/c++/16.1.0/pstl/pstl_config.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ostream \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ostream.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ios \
+ F:/msys64/mingw64/include/c++/16.1.0/iosfwd \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stringfwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/memoryfwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/version.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/postypes.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cwchar \
+ F:/msys64/mingw64/include/wchar.h F:/msys64/mingw64/include/corecrt.h \
+ F:/msys64/mingw64/include/_mingw.h \
+ F:/msys64/mingw64/include/_mingw_mac.h \
+ F:/msys64/mingw64/include/_mingw_secapi.h \
+ F:/msys64/mingw64/include/vadefs.h \
+ F:/msys64/mingw64/include/corecrt_stdio_config.h \
+ F:/msys64/mingw64/include/corecrt_wconio.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
+ F:/msys64/mingw64/include/stddef.h F:/msys64/mingw64/include/crtdefs.h \
+ F:/msys64/mingw64/include/sec_api/wconio_s.h \
+ F:/msys64/mingw64/include/corecrt_wstdlib.h \
+ F:/msys64/mingw64/include/corecrt_wctype.h \
+ F:/msys64/mingw64/include/_mingw_off_t.h \
+ F:/msys64/mingw64/include/_mingw_stat64.h \
+ F:/msys64/mingw64/include/swprintf.inl \
+ F:/msys64/mingw64/include/sec_api/wchar_s.h \
+ F:/msys64/mingw64/include/c++/16.1.0/exception \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/exception.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/exception_defines.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
+ F:/msys64/mingw64/include/c++/16.1.0/typeinfo \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/hash_bytes.h \
+ F:/msys64/mingw64/include/c++/16.1.0/new \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/new_except.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/move.h \
+ F:/msys64/mingw64/include/c++/16.1.0/type_traits \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/nested_exception.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/char_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/localefwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
+ F:/msys64/mingw64/include/c++/16.1.0/clocale \
+ F:/msys64/mingw64/include/locale.h F:/msys64/mingw64/include/stdio.h \
+ F:/msys64/mingw64/include/sec_api/stdio_s.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cctype \
+ F:/msys64/mingw64/include/ctype.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ios_base.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/atomicity.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+ F:/msys64/mingw64/include/pthread.h F:/msys64/mingw64/include/errno.h \
+ F:/msys64/mingw64/include/sys/types.h \
+ F:/msys64/mingw64/include/process.h \
+ F:/msys64/mingw64/include/corecrt_startup.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
+ F:/msys64/mingw64/include/limits.h F:/msys64/mingw64/include/signal.h \
+ F:/msys64/mingw64/include/pthread_signal.h \
+ F:/msys64/mingw64/include/time.h F:/msys64/mingw64/include/sys/timeb.h \
+ F:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+ F:/msys64/mingw64/include/_timeval.h \
+ F:/msys64/mingw64/include/pthread_time.h \
+ F:/msys64/mingw64/include/pthread_compat.h \
+ F:/msys64/mingw64/include/sched.h \
+ F:/msys64/mingw64/include/pthread_unistd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_classes.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/functexcept.h \
+ F:/msys64/mingw64/include/c++/16.1.0/string \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/allocator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/new_allocator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/new_throw.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/cpp_type_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ostream_insert.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/concept_check.h \
+ F:/msys64/mingw64/include/c++/16.1.0/debug/assertions.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/type_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ptr_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_function.h \
+ F:/msys64/mingw64/include/c++/16.1.0/backward/binders.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/numeric_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throw.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_algobase.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_pair.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/utility.h \
+ F:/msys64/mingw64/include/c++/16.1.0/debug/debug.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/predefined_ops.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bit \
+ F:/msys64/mingw64/include/c++/16.1.0/concepts \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/range_access.h \
+ F:/msys64/mingw64/include/c++/16.1.0/initializer_list \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/erase_if.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/basic_string.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/alloc_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/alloc_traits.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_construct.h \
+ F:/msys64/mingw64/include/c++/16.1.0/string_view \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/functional_hash.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/string_view.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/string_conversions.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cstdlib \
+ F:/msys64/mingw64/include/stdlib.h \
+ F:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ F:/msys64/mingw64/include/c++/16.1.0/stdlib.h \
+ F:/msys64/mingw64/include/malloc.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/std_abs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cstdio \
+ F:/msys64/mingw64/include/c++/16.1.0/cerrno \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/charconv.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/basic_string.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/memory_resource.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cstddef \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/uses_allocator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
+ F:/msys64/mingw64/include/c++/16.1.0/tuple \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/invoke.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_classes.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/system_error \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+ F:/msys64/mingw64/include/c++/16.1.0/stdexcept \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_except.h \
+ F:/msys64/mingw64/include/c++/16.1.0/streambuf \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/streambuf.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/basic_ios.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_facets.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cwctype \
+ F:/msys64/mingw64/include/wctype.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/streambuf_iterator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_facets.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/basic_ios.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ostream_print.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/ostream.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/istream \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/istream.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/filesystem \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/fs_fwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cstdint \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
+ F:/msys64/mingw64/include/stdint.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/chrono.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ratio \
+ F:/msys64/mingw64/include/c++/16.1.0/limits \
+ F:/msys64/mingw64/include/c++/16.1.0/ctime \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/parse_numbers.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/fs_path.h \
+ F:/msys64/mingw64/include/c++/16.1.0/locale \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_facets_nonio.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/time_members.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/messages_members.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/codecvt.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_facets_nonio.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/locale_conv.h \
+ F:/msys64/mingw64/include/c++/16.1.0/iomanip \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/quoted_string.h \
+ F:/msys64/mingw64/include/c++/16.1.0/sstream \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/sstream.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/codecvt \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/concurrence.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/shared_ptr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/shared_ptr_base.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/allocated_ptr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/refwrap.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/unique_ptr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/ext/aligned_buffer.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/fs_dir.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/fs_ops.h \
+ F:/msys64/mingw64/include/c++/16.1.0/fstream \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/fstream.tcc \
+ F:/msys64/mingw64/include/pathcch.h F:/msys64/mingw64/include/apiset.h \
+ F:/msys64/mingw64/include/apisetcconv.h \
+ F:/msys64/mingw64/include/minwindef.h \
+ F:/msys64/mingw64/include/winapifamily.h \
+ F:/msys64/mingw64/include/specstrings.h F:/msys64/mingw64/include/sal.h \
+ F:/msys64/mingw64/include/concurrencysal.h \
+ F:/msys64/mingw64/include/driverspecs.h \
+ F:/msys64/mingw64/include/winnt.h \
+ F:/msys64/mingw64/include/_mingw_unicode.h \
+ F:/msys64/mingw64/include/excpt.h \
+ F:/msys64/mingw64/include/psdk_inc/intrin-impl.h \
+ F:/msys64/mingw64/include/sdkddkver.h \
+ F:/msys64/mingw64/include/basetsd.h F:/msys64/mingw64/include/guiddef.h \
+ F:/msys64/mingw64/include/string.h \
+ F:/msys64/mingw64/include/corecrt_memory.h \
+ F:/msys64/mingw64/include/sec_api/string_s.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/x86intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/x86gprintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ia32intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/adxintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmiintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmi2intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cetintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cldemoteintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clflushoptintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clwbintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clzerointrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cmpccxaddintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/enqcmdintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fxsrintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/lzcntintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/lwpintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movdirintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitxintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pconfigintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/popcntintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pkuintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/prfchiintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/raointintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/rdseedintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/rtmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/serializeintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sgxintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tbmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tsxldtrkintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/uintrintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/waitpkgintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/wbnoinvdintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavecintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveoptintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavesintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xtestintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/hresetintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/usermsrintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/immintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xmmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/emmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pmmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tmmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/smmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/wmmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxifmaintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniint8intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniint16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx2intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512cdintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bwintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512dqintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vlbwintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vldqintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmaintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmavlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmiintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmivlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmi2intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmi2vlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnniintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnnivlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqvlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgvlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectvlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16vlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/shaintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sm3intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sha512intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/sm4intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fmaintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/f16cintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/gfniintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/vaesintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/vpclmulqdqintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16vlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxneconvertintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtileintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxint8intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxbf16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxcomplexintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxavx512intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtf32intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp8intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/prfchwintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/keylockerintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2mediaintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2convertintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2bf16intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2satcvtintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2minmaxintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx10_2copyintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movrsintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxmovrsintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmvlintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm3dnow.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fma4intrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ammintrin.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xopintrin.h \
+ F:/msys64/mingw64/include/pshpack4.h F:/msys64/mingw64/include/poppack.h \
+ F:/msys64/mingw64/include/pshpack4.h \
+ F:/msys64/mingw64/include/pshpack2.h F:/msys64/mingw64/include/poppack.h \
+ F:/msys64/mingw64/include/pshpack2.h \
+ F:/msys64/mingw64/include/pshpack8.h \
+ F:/msys64/mingw64/include/pshpack8.h \
+ F:/msys64/mingw64/include/ktmtypes.h \
+ F:/msys64/mingw64/include/minwinbase.h \
  F:/Alexey/C++/My_crow_server/include/handlers.h \
  F:/Alexey/C++/My_crow_server/include/crow_all.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/vector \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_uninitialized.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_vector.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_bvector.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/vector.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/unordered_map \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/unordered_map.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/hashtable.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/hashtable_policy.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/enable_special_members.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/node_handle.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/memory \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_tempbuf.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/align.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/shared_ptr_atomic.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/atomic_base.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/backward/auto_ptr.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/pstl/glue_memory_defs.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/pstl/execution_defs.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cstring \
+ F:/msys64/mingw64/include/c++/16.1.0/vector \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_uninitialized.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_vector.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_bvector.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/vector.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/unordered_map \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/unordered_map.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/hashtable.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/hashtable_policy.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/enable_special_members.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/node_handle.h \
+ F:/msys64/mingw64/include/c++/16.1.0/memory \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_tempbuf.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/align.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/shared_ptr_atomic.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/atomic_base.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
+ F:/msys64/mingw64/include/c++/16.1.0/backward/auto_ptr.h \
+ F:/msys64/mingw64/include/c++/16.1.0/pstl/glue_memory_defs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cstring \
  F:/Alexey/C++/My_crow_server/include/asio.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/any_completion_executor.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/config.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/version.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/version \
+ F:/msys64/mingw64/include/c++/16.1.0/version \
  F:/Alexey/C++/My_crow_server/include/asio/execution.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/allocator.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/type_traits.hpp \
@@ -363,10 +364,10 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/traits/static_query.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/any_executor.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/assert.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cassert \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/assert.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cassert \
+ F:/msys64/mingw64/include/assert.h \
  F:/Alexey/C++/My_crow_server/include/asio/detail/atomic_count.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/atomic \
+ F:/msys64/mingw64/include/c++/16.1.0/atomic \
  F:/Alexey/C++/My_crow_server/include/asio/detail/cstddef.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/executor_function.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/handler_alloc_helpers.hpp \
@@ -375,86 +376,78 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/throw_exception.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/recycling_allocator.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/thread_context.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/climits \
+ F:/msys64/mingw64/include/c++/16.1.0/climits \
  F:/Alexey/C++/My_crow_server/include/asio/detail/call_stack.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/noncopyable.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/tss_ptr.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/win_tss_ptr.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/socket_types.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winsock2.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/windows.h \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stdarg.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/windef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winbase.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/bemapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/debugapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/errhandlingapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/fibersapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/fileapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/handleapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/heapapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ioapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/interlockedapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/jobapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/libloaderapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/memoryapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/namedpipeapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/namespaceapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/processenv.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/processthreadsapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/processtopologyapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/profileapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/realtimeapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/securityappcontainer.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/securitybaseapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/synchapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sysinfoapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/systemtopologyapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/threadpoolapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/utilapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wow64apiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winerror.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/fltwinerror.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/timezoneapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wingdi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pshpack1.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winuser.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/tvout.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winnls.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/datetimeapi.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stringapiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wincon.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winver.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winreg.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/reason.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winnetwk.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/wnnc.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/virtdisk.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/stralign.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/winsvc.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/mcx.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/imm.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_ws1_undef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/_bsd_types.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/inaddr.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ws2def.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/qos.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ws2tcpip.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/ws2ipdef.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/in6addr.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/mstcpip.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/mswsock.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h \
+ F:/msys64/mingw64/include/winsock2.h F:/msys64/mingw64/include/windows.h \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h \
+ F:/msys64/mingw64/include/stdarg.h \
+ F:/msys64/mingw64/include/_mingw_stdarg.h \
+ F:/msys64/mingw64/include/windef.h F:/msys64/mingw64/include/winbase.h \
+ F:/msys64/mingw64/include/bemapiset.h \
+ F:/msys64/mingw64/include/debugapi.h \
+ F:/msys64/mingw64/include/errhandlingapi.h \
+ F:/msys64/mingw64/include/fibersapi.h \
+ F:/msys64/mingw64/include/fileapi.h \
+ F:/msys64/mingw64/include/handleapi.h \
+ F:/msys64/mingw64/include/heapapi.h F:/msys64/mingw64/include/ioapiset.h \
+ F:/msys64/mingw64/include/interlockedapi.h \
+ F:/msys64/mingw64/include/jobapi.h \
+ F:/msys64/mingw64/include/libloaderapi.h \
+ F:/msys64/mingw64/include/memoryapi.h \
+ F:/msys64/mingw64/include/namedpipeapi.h \
+ F:/msys64/mingw64/include/namespaceapi.h \
+ F:/msys64/mingw64/include/processenv.h \
+ F:/msys64/mingw64/include/processthreadsapi.h \
+ F:/msys64/mingw64/include/processtopologyapi.h \
+ F:/msys64/mingw64/include/profileapi.h \
+ F:/msys64/mingw64/include/realtimeapiset.h \
+ F:/msys64/mingw64/include/securityappcontainer.h \
+ F:/msys64/mingw64/include/securitybaseapi.h \
+ F:/msys64/mingw64/include/synchapi.h \
+ F:/msys64/mingw64/include/sysinfoapi.h \
+ F:/msys64/mingw64/include/systemtopologyapi.h \
+ F:/msys64/mingw64/include/threadpoolapiset.h \
+ F:/msys64/mingw64/include/threadpoollegacyapiset.h \
+ F:/msys64/mingw64/include/utilapiset.h \
+ F:/msys64/mingw64/include/wow64apiset.h \
+ F:/msys64/mingw64/include/winerror.h \
+ F:/msys64/mingw64/include/fltwinerror.h \
+ F:/msys64/mingw64/include/timezoneapi.h \
+ F:/msys64/mingw64/include/wingdi.h F:/msys64/mingw64/include/pshpack1.h \
+ F:/msys64/mingw64/include/winuser.h F:/msys64/mingw64/include/tvout.h \
+ F:/msys64/mingw64/include/winnls.h \
+ F:/msys64/mingw64/include/datetimeapi.h \
+ F:/msys64/mingw64/include/stringapiset.h \
+ F:/msys64/mingw64/include/wincon.h \
+ F:/msys64/mingw64/include/wincontypes.h \
+ F:/msys64/mingw64/include/consoleapi.h \
+ F:/msys64/mingw64/include/consoleapi2.h \
+ F:/msys64/mingw64/include/consoleapi3.h \
+ F:/msys64/mingw64/include/winver.h F:/msys64/mingw64/include/winreg.h \
+ F:/msys64/mingw64/include/reason.h F:/msys64/mingw64/include/winnetwk.h \
+ F:/msys64/mingw64/include/wnnc.h F:/msys64/mingw64/include/virtdisk.h \
+ F:/msys64/mingw64/include/stralign.h \
+ F:/msys64/mingw64/include/sec_api/stralign_s.h \
+ F:/msys64/mingw64/include/winsvc.h F:/msys64/mingw64/include/mcx.h \
+ F:/msys64/mingw64/include/imm.h \
+ F:/msys64/mingw64/include/psdk_inc/_ws1_undef.h \
+ F:/msys64/mingw64/include/_bsd_types.h \
+ F:/msys64/mingw64/include/inaddr.h \
+ F:/msys64/mingw64/include/psdk_inc/_socket_types.h \
+ F:/msys64/mingw64/include/psdk_inc/_fd_types.h \
+ F:/msys64/mingw64/include/psdk_inc/_ip_types.h \
+ F:/msys64/mingw64/include/psdk_inc/_wsadata.h \
+ F:/msys64/mingw64/include/ws2def.h \
+ F:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
+ F:/msys64/mingw64/include/qos.h F:/msys64/mingw64/include/ws2tcpip.h \
+ F:/msys64/mingw64/include/ws2ipdef.h F:/msys64/mingw64/include/in6addr.h \
+ F:/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
+ F:/msys64/mingw64/include/mstcpip.h F:/msys64/mingw64/include/mswsock.h \
+ F:/msys64/mingw64/include/psdk_inc/_xmitfile.h \
  F:/Alexey/C++/My_crow_server/include/asio/detail/old_win_sdk_compat.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/impl/win_tss_ptr.ipp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/throw_error.hpp \
@@ -471,10 +464,10 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/associated_allocator.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/associator.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/functional.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/functional \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/std_function.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/array \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/compare \
+ F:/msys64/mingw64/include/c++/16.1.0/functional \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/std_function.h \
+ F:/msys64/mingw64/include/c++/16.1.0/array \
+ F:/msys64/mingw64/include/c++/16.1.0/compare \
  F:/Alexey/C++/My_crow_server/include/asio/detail/non_const_lvalue.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/scoped_ptr.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/bad_executor.hpp \
@@ -497,7 +490,7 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/win_mutex.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/scoped_lock.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/context.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/any \
+ F:/msys64/mingw64/include/c++/16.1.0/any \
  F:/Alexey/C++/My_crow_server/include/asio/execution/context_as.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/inline_exception_handling.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution/mapping.hpp \
@@ -508,8 +501,8 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/impl/any_completion_executor.ipp \
  F:/Alexey/C++/My_crow_server/include/asio/any_completion_executor.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/any_completion_handler.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/utility \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_relops.h \
+ F:/msys64/mingw64/include/c++/16.1.0/utility \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_relops.h \
  F:/Alexey/C++/My_crow_server/include/asio/any_io_executor.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/execution_context.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/impl/execution_context.hpp \
@@ -555,7 +548,7 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/io_object_impl.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/io_context.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/chrono.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/chrono \
+ F:/msys64/mingw64/include/c++/16.1.0/chrono \
  F:/Alexey/C++/My_crow_server/include/asio/detail/concurrency_hint.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/wrapped_handler.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/bind_handler.hpp \
@@ -568,11 +561,8 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/limits.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/op_queue.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/thread.hpp \
- F:/Alexey/C++/My_crow_server/include/asio/detail/win_thread.hpp \
- F:/Alexey/C++/My_crow_server/include/asio/detail/impl/win_thread.ipp \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/process.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sys/types.h \
+ F:/Alexey/C++/My_crow_server/include/asio/detail/posix_thread.hpp \
+ F:/Alexey/C++/My_crow_server/include/asio/detail/impl/posix_thread.ipp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/timer_queue_base.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/operation.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/win_iocp_operation.hpp \
@@ -606,8 +596,8 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/array_fwd.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/string_view.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/is_contiguous_iterator.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/iterator \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stream_iterator.h \
+ F:/msys64/mingw64/include/c++/16.1.0/iterator \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stream_iterator.h \
  F:/Alexey/C++/My_crow_server/include/asio/detail/is_buffer_sequence.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/registered_buffer.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/impl/buffer_sequence_adapter.ipp \
@@ -618,9 +608,9 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/win_fd_set_adapter.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/reactor_op_queue.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/hash_map.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/list \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_list.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/list.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/list \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_list.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/list.tcc \
  F:/Alexey/C++/My_crow_server/include/asio/detail/scheduler_task.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/select_interrupter.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/socket_select_interrupter.hpp \
@@ -650,8 +640,7 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/win_iocp_handle_write_op.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/impl/win_iocp_handle_service.ipp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/impl/win_iocp_file_service.ipp \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/sys/stat.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/io.h \
+ F:/msys64/mingw64/include/sys/stat.h F:/msys64/mingw64/include/io.h \
  F:/Alexey/C++/My_crow_server/include/asio/basic_io_object.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_random_access_file.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_file.hpp \
@@ -666,8 +655,6 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/impl/win_iocp_serial_port_service.ipp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_signal_set.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/signal_set_service.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/signal.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/pthread_signal.h \
  F:/Alexey/C++/My_crow_server/include/asio/signal_set_base.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/signal_handler.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/signal_op.hpp \
@@ -696,12 +683,12 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/basic_stream_file.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_stream_socket.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_streambuf.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/algorithm \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_algo.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/algorithmfwd.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_heap.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/uniform_int_dist.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/algorithm \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_algo.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/algorithmfwd.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_heap.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/uniform_int_dist.h \
+ F:/msys64/mingw64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
  F:/Alexey/C++/My_crow_server/include/asio/basic_streambuf_fwd.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_waitable_timer.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/basic_writable_pipe.hpp \
@@ -740,8 +727,8 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/detail/timed_cancel_op.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/completion_payload.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/completion_message.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/variant \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/monostate.h \
+ F:/msys64/mingw64/include/c++/16.1.0/variant \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/monostate.h \
  F:/Alexey/C++/My_crow_server/include/asio/detail/completion_payload_handler.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/cancel_at.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/impl/cancel_at.hpp \
@@ -779,7 +766,7 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/impl/connect_pipe.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/connect_pipe.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/impl/connect_pipe.ipp \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/bcrypt.h \
+ F:/msys64/mingw64/include/bcrypt.h \
  F:/Alexey/C++/My_crow_server/include/asio/consign.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/impl/consign.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/coroutine.hpp \
@@ -919,15 +906,13 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/multiple_exceptions.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/packaged_task.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/detail/future.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/future \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/mutex \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/std_mutex.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/unique_lock.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/condition_variable \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/thread \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/std_thread.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/this_thread_sleep.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/atomic_futex.h \
+ F:/msys64/mingw64/include/c++/16.1.0/future \
+ F:/msys64/mingw64/include/c++/16.1.0/mutex \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/std_mutex.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/unique_lock.h \
+ F:/msys64/mingw64/include/c++/16.1.0/condition_variable \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/atomic_futex.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/std_thread.h \
  F:/Alexey/C++/My_crow_server/include/asio/placeholders.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/posix/basic_descriptor.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/posix/basic_stream_descriptor.hpp \
@@ -1022,52 +1007,54 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/include/asio/write.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/write_at.hpp \
  F:/Alexey/C++/My_crow_server/include/asio/impl/write_at.hpp \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/random \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cmath \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/math.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/specfun.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/gamma.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/special_function_util.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/bessel_function.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/beta_function.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/ell_integral.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/exp_integral.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/hypergeometric.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/legendre_function.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/poly_hermite.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/random.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/random.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/numeric \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_numeric.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/map \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_tree.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_map.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_multimap.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cfloat \
- C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/float.h \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/float.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/unordered_set \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/unordered_set.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/set \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_set.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_multiset.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/queue \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/deque \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_deque.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/deque.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_queue.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/optional \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/charconv \
+ F:/msys64/mingw64/include/c++/16.1.0/random \
+ F:/msys64/mingw64/include/c++/16.1.0/cmath \
+ F:/msys64/mingw64/include/math.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/specfun.h \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/gamma.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/special_function_util.h \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/bessel_function.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/beta_function.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/ell_integral.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/exp_integral.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/hypergeometric.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/legendre_function.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/poly_hermite.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/random.h \
+ F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/opt_random.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/random.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/numeric \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_numeric.h \
+ F:/msys64/mingw64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
+ F:/msys64/mingw64/include/c++/16.1.0/map \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_tree.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_map.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_multimap.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cfloat \
+ F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/float.h \
+ F:/msys64/mingw64/include/float.h \
+ F:/msys64/mingw64/include/c++/16.1.0/unordered_set \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/unordered_set.h \
+ F:/msys64/mingw64/include/c++/16.1.0/set \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_set.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_multiset.h \
+ F:/msys64/mingw64/include/c++/16.1.0/queue \
+ F:/msys64/mingw64/include/c++/16.1.0/deque \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_deque.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/deque.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_queue.h \
+ F:/msys64/mingw64/include/c++/16.1.0/optional \
+ F:/msys64/mingw64/include/c++/16.1.0/thread \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/this_thread_sleep.h \
+ F:/msys64/mingw64/include/c++/16.1.0/charconv \
  F:/Alexey/C++/My_crow_server/include/jwt_middleware.h \
  F:/Alexey/C++/My_crow_server/include/jwt-cpp/jwt.h \
  F:/Alexey/C++/My_crow_server/include/picojson/picojson.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/cinttypes \
- C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include/inttypes.h \
+ F:/msys64/mingw64/include/c++/16.1.0/cinttypes \
+ F:/msys64/mingw64/include/inttypes.h \
  F:/Alexey/C++/My_crow_server/include/jwt-cpp/base.h \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/ec.h \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/macros.h \
@@ -1139,28 +1126,28 @@ CMakeFiles/crow_server.dir/src/main.cpp.obj: \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/dtls1.h \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/srtp.h \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/quic.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/experimental/type_traits \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/experimental/bits/lfts_config.h \
+ F:/msys64/mingw64/include/c++/16.1.0/experimental/type_traits \
+ F:/msys64/mingw64/include/c++/16.1.0/experimental/bits/lfts_config.h \
  F:/Alexey/C++/My_crow_server/openssl/include/openssl/param_build.h \
  F:/Alexey/C++/My_crow_server/include/jwt-cpp/traits/kazuho-picojson/defaults.h \
  F:/Alexey/C++/My_crow_server/include/jwt-cpp/traits/kazuho-picojson/traits.h \
  F:/Alexey/C++/My_crow_server/include/jwt-cpp/jwt.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/regex \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bitset \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/stack \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/stl_stack.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_constants.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_error.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_automaton.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_automaton.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_scanner.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_scanner.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_compiler.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_compiler.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex.tcc \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_executor.h \
- C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/bits/regex_executor.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/regex \
+ F:/msys64/mingw64/include/c++/16.1.0/bitset \
+ F:/msys64/mingw64/include/c++/16.1.0/stack \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/stl_stack.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_constants.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_error.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_automaton.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_automaton.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_scanner.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_scanner.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_compiler.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_compiler.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex.tcc \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_executor.h \
+ F:/msys64/mingw64/include/c++/16.1.0/bits/regex_executor.tcc \
  F:/Alexey/C++/My_crow_server/include/logger_middleware.h \
  F:/Alexey/C++/My_crow_server/include/logger.h \
  F:/Alexey/C++/My_crow_server/include/config.h

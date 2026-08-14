@@ -1,0 +1,5 @@
+{
+  "port": 18080,
+  "static_path": "../files",
+  "log_level": "info"
+}

@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeRCCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeSystem.cmake"
+  "F:/Alexey/C++/My_crow_server/config.json"
   "F:/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in"
   "F:/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c"
   "F:/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake"
@@ -148,6 +149,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.4.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
+  "config.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

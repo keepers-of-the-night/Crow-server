@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Users/cyclo/gcc-16.1.0-64/bin/c++.exe")
+set(CMAKE_CXX_COMPILER "F:/msys64/mingw64/bin/c++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "16.1.0")
@@ -26,17 +26,17 @@ set(CMAKE_CXX_COMPILER_ARCHITECTURE_ID "x86_64")
 
 
 
-set(CMAKE_AR "C:/Users/cyclo/gcc-16.1.0-64/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Users/cyclo/gcc-16.1.0-64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Users/cyclo/gcc-16.1.0-64/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Users/cyclo/gcc-16.1.0-64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Users/cyclo/gcc-16.1.0-64/bin/ld.exe")
+set(CMAKE_AR "F:/msys64/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "F:/msys64/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "F:/msys64/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "F:/msys64/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "F:/msys64/mingw64/bin/ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/bin/ld.exe")
+set(CMAKE_CXX_COMPILER_LINKER "F:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe")
 set(CMAKE_CXX_COMPILER_LINKER_ARCHITECTURE_FLAGS "-m;i386pep")
 set(CMAKE_CXX_COMPILER_LINKER_ID "GNU")
-set(CMAKE_CXX_COMPILER_LINKER_VERSION "2.44")
+set(CMAKE_CXX_COMPILER_LINKER_VERSION "2.46")
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT "GNU")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
@@ -92,9 +92,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0;C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/x86_64-w64-mingw32;C:/Users/cyclo/gcc-16.1.0-64/include/c++/16.1.0/backward;C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include;C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed;C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Users/cyclo/gcc-16.1.0-64/lib/gcc/x86_64-w64-mingw32/16.1.0;C:/Users/cyclo/gcc-16.1.0-64/lib/gcc;C:/Users/cyclo/gcc-16.1.0-64/x86_64-w64-mingw32/lib;C:/Users/cyclo/gcc-16.1.0-64/lib")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/msys64/mingw64/include/c++/16.1.0;F:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32;F:/msys64/mingw64/include/c++/16.1.0/backward;F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include;F:/msys64/mingw64/include;F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;mingwex;kernel32")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0;F:/msys64/mingw64/lib/gcc;F:/msys64/mingw64/x86_64-w64-mingw32/lib;F:/msys64/mingw64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 

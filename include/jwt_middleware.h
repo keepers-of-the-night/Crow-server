@@ -11,9 +11,9 @@ struct JWTAuthMiddleware {
 
     void before_handle(crow::request& req, crow::response& res, context& /*ctx*/) {
 
-        if (req.url == "/login" || req.url == "/") {
-            return;
-        }
+	if (req.url == "/login" || req.url == "/" || req.url.find("/files/swagger") == 0 || req.url == "/docs" || req.url == "/openapi.yaml") {
+    	    return;
+	}
 
         auto auth_header = req.get_header_value("Authorization");
         if (auth_header.empty()) {

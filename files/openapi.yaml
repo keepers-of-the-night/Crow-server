@@ -1,0 +1,211 @@
+openapi: 3.0.0
+info:
+  title: Crow HTTP Server API
+  description: Документация для REST API на C++ (Crow)
+  version: 1.0.0
+servers:
+  - url: http://localhost:18080
+    description: Локальный сервер разработки
+paths:
+  /:
+    get:
+      summary: Корневой маршрут
+      description: Возвращает список доступных эндпоинтов.
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  service:
+                    type: string
+                  version:
+                    type: string
+                  endpoints:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        method:
+                          type: string
+                        path:
+                          type: string
+  /hello/{name}:
+    get:
+      summary: Приветствие
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Имя пользователя
+      responses:
+        '200':
+          description: Приветствие
+          content:
+            text/plain:
+              schema:
+                type: string
+        '400':
+          description: Ошибка валидации
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /json:
+    get:
+      summary: Пример JSON-ответа
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  status:
+                    type: string
+  /add:
+    post:
+      summary: Сложение двух чисел
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - a
+                - b
+              properties:
+                a:
+                  type: integer
+                b:
+                  type: integer
+      responses:
+        '200':
+          description: Сумма
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  sum:
+                    type: integer
+        '400':
+          description: Ошибка валидации
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /login:
+    post:
+      summary: Авторизация и получение JWT
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - username
+                - password
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Успешная авторизация
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+        '401':
+          description: Неверные учётные данные
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /protected:
+    get:
+      summary: Защищённый ресурс (требуется JWT)
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Доступ разрешён
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: Не авторизован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /files/{path}:
+    get:
+      summary: Отдача статических файлов
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: path
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Путь к файлу внутри папки static
+      responses:
+        '200':
+          description: Файл
+          content:
+            '*/*':
+              schema:
+                type: string
+                format: binary
+        '403':
+          description: Запрещено
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Файл не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: boolean
+        message:
+          type: string

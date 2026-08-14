@@ -21,3 +21,5 @@ target_link_libraries(crow_server
     ws2_32 
     mswsock
 )
+
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.json ${CMAKE_CURRENT_BINARY_DIR}/config.json COPYONLY)

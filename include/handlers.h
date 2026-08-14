@@ -149,4 +149,32 @@ void setupRoutes(AppType& app) {
         res.body = content;
         return res;
     });
+
+    CROW_ROUTE(app, "/docs")
+    ([&]() {
+	std::string full_path = g_static_path + "/swagger/index.html";
+    	std::ifstream file(full_path, std::ios::binary);
+    	if (!file.is_open()) {
+             return crow::response(404, "Swagger UI not found");
+    	}
+    	std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    	crow::response res;
+    	res.set_header("Content-Type", "text/html");
+    	res.body = content;
+    	return res;
+    });
+
+    CROW_ROUTE(app, "/openapi.yaml")
+    ([&]() {
+	std::string full_path = g_static_path + "/openapi.yaml";
+    	std::ifstream file(full_path, std::ios::binary);
+    	if (!file.is_open()) {
+            return crow::response(404, "Specification not found");
+    	}
+    	std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    	crow::response res;
+    	res.set_header("Content-Type", "text/yaml");
+    	res.body = content;
+    	return res;
+    });
 }
